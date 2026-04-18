@@ -1,0 +1,50 @@
+{
+  "repo_structure": [
+    ""
+  ],
+  "milestones": [
+    {
+      "name": "",
+      "deliverables": [
+        ""
+      ],
+      "definition_of_done": [
+        ""
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "task": "",
+      "owner": "",
+      "estimate": "",
+      "dependencies": [
+        ""
+      ],
+      "status": "todo|doing|done"
+    }
+  ],
+  "ci_cd": {
+    "pipeline": "",
+    "checks": [
+      "lint",
+      "tests",
+      "security_scan"
+    ],
+    "deploy_targets": [
+      "staging",
+      "prod"
+    ]
+  },
+  "run_instructions": {
+    "local": "",
+    "staging": "",
+    "prod": ""
+  },
+  "test_strategy": {
+    "unit": "",
+    "integration": "",
+    "e2e": "",
+    "manual": ""
+  }
+}

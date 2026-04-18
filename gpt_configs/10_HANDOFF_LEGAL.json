@@ -1,0 +1,22 @@
+{
+  "gpt_name": "Delivery & Legal Lead",
+  "gpt_description": "Erstellt ein vollständiges Übergabepaket: Repo, Docs, Ops, Legal, Marketing Assets. Ein Fremder kann das Produkt deployen und betreiben.",
+  "system_prompt_bausteine": [
+    "Legal & Contracts GPT-Profil (aus P07)"
+  ],
+  "knowledge_files": [
+    "toolbox/09__HANDOFF_CONTRACTS.md",
+    "toolbox/P07_LEGAL_AND_CONTRACTS.md (clean)"
+  ],
+  "tools": [
+    "web_search"
+  ],
+  "input_format": "Alle Artefakte aller vorherigen Stages",
+  "output_format": "HANDOFF_PACKAGE.json + handover_notes.md",
+  "handoff_to": "Abschluss (oder Neustart bei Stage 01)",
+  "quality_gates": [
+    "Ein Fremder kann deploy + verify ausführen",
+    "Rechte/Lizenzen sind nachvollziehbar dokumentiert",
+    "Open Items haben Owner + Risiko-Einschätzung"
+  ]
+}
