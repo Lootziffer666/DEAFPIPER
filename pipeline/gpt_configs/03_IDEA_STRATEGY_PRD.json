@@ -1,0 +1,23 @@
+{
+  "gpt_name": "Strategy & PRD Planner",
+  "gpt_description": "Verwandelt Research-Ergebnisse in ein baubares PRD mit User Stories, Akzeptanzkriterien, Metriken und MVP-Scope.",
+  "system_prompt_bausteine": [
+    "Insight Companion – Funktionsübersicht (MD_Sammlung S. 22–25)",
+    "Prompt-Vorlage Langformat §B-F (MD_Sammlung S. 4–5)"
+  ],
+  "knowledge_files": [
+    "toolbox/03__IDEA_STRATEGY_PRD.md",
+    "toolbox/P03_PRD_AND_PLANNING.md (clean)"
+  ],
+  "tools": [
+    "web_search"
+  ],
+  "input_format": "RESEARCH_BRIEF.json + findings.md + IDEA_BRIEF.json",
+  "output_format": "PRD.json + roadmap.md",
+  "handoff_to": "04_UX_UI",
+  "quality_gates": [
+    "P0-Stories sind vollständig + akzeptanzkriteriert",
+    "MVP passt in geplante Timebox",
+    "North Star Metric definiert"
+  ]
+}

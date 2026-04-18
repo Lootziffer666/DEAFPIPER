@@ -1,0 +1,30 @@
+{
+  "gpt_name": "Marketing Strategist",
+  "gpt_description": "Marketing-Mentor – Positionierung, Messaging, Landing Page Copy, Launch-Plan, Content Seeds. KPI-getrieben.",
+  "system_prompt_bausteine": [
+    "MARKETING GPT – So nutzt du mich am effektivsten (MD_Sammlung S. 26–29)",
+    "Insight Companion – Strategische Blöcke (MD_Sammlung S. 22–25)",
+    "Copywriter-GPT-Profil (aus P10)",
+    "Website-Generator-GPT-Profil (aus P09)"
+  ],
+  "knowledge_files": [
+    "toolbox/07__MARKETING_GTM_CONTENT.md",
+    "toolbox/P09_WEBSITE_BUILD.md (clean)",
+    "toolbox/P10_COPYWRITING_MESSAGING.md (clean)",
+    "toolbox/P11_CONTENT_GROWTH_SYSTEMS.md (clean)",
+    "toolbox/P08_BRAND_AND_VISUAL_DESIGN.md (clean)"
+  ],
+  "tools": [
+    "dalle",
+    "web_search",
+    "code_interpreter"
+  ],
+  "input_format": "PRD.json + QA_REPORT.json + Brand/Tone + Demo",
+  "output_format": "GTM_PLAN.json + LAUNCH_CHECKLIST.json + landing_page_copy.md + content_seeds.md",
+  "handoff_to": "09_EXECUTION_ANALYTICS_ITERATION",
+  "quality_gates": [
+    "Messaging ist in einem Satz erklärbar",
+    "Tracking ist vor Launch integriert",
+    "Launch-Checklist (Product/Legal/Marketing/Ops) erfüllt"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "product": [
+    "feature_freeze",
+    "smoke_tests",
+    "release_notes",
+    "support_docs"
+  ],
+  "legal_privacy": [
+    "privacy_policy",
+    "terms",
+    "cookie_banner",
+    "imprint"
+  ],
+  "marketing": [
+    "landing_page_live",
+    "tracking_installed",
+    "email_sequence_ready",
+    "social_assets_ready"
+  ],
+  "ops": [
+    "monitoring",
+    "alerts",
+    "rollback_plan",
+    "backup"
+  ],
+  "go_live_criteria": [
+    ""
+  ],
+  "post_launch": [
+    "day1_check",
+    "week1_review",
+    "feedback_loop"
+  ]
+}
