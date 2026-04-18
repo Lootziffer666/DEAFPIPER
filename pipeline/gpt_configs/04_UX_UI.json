@@ -1,0 +1,24 @@
+{
+  "gpt_name": "UX Designer",
+  "gpt_description": "Erstellt User Journeys, Informationsarchitektur, Microcopy und einen Design-System-Starter.",
+  "system_prompt_bausteine": [
+    "DesignerGPT-Profil (aus P08/P09)"
+  ],
+  "knowledge_files": [
+    "toolbox/04__UX_UI_DESIGN.md",
+    "toolbox/P08_BRAND_AND_VISUAL_DESIGN.md (clean – nur DesignerGPT + Brand)",
+    "toolbox/P12_REWRITE_AND_TONE.md (clean – nur Rewrite/Tone)"
+  ],
+  "tools": [
+    "dalle",
+    "web_search"
+  ],
+  "input_format": "PRD.json + Brand/Tone Vorgaben",
+  "output_format": "UX_SPEC.json + copy.md + design_tokens.md",
+  "handoff_to": "05_ARCHITECTURE_DIAGRAMS",
+  "quality_gates": [
+    "Hauptflow ist in <60 Sekunden erklärbar",
+    "Accessibility: Kontraste, Fokus, Tastatur berücksichtigt",
+    "Microcopy für Errors, Empty States, CTAs vorhanden"
+  ]
+}

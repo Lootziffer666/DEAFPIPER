@@ -1,0 +1,968 @@
+[
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "P01 – Prompting & Learning Playbook",
+    "lines": 102,
+    "native": true,
+    "target_stage": "P01"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "Leitfaden zur optimalen Nutzung dieses GPT",
+    "lines": 104,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 49,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "10 effektive Prompt-Beispiele + 3 Workflows für dieses Legal & Contracts GPT",
+    "lines": 46,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "Nutzung dieses GPTs – Überblick",
+    "lines": 19,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "Universal Primer – Best Practices Guide",
+    "lines": 16,
+    "native": true,
+    "target_stage": "P01"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "2. Wie du Fragen optimal stellst",
+    "lines": 37,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "3. Besonders effektive Prompt-Struktur",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "4. Arten von Antworten, die du erwarten kannst",
+    "lines": 23,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "2) Welche Schritte ich durchgehe, wenn ich eine Anfrage bearbeite",
+    "lines": 35,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P01_PROMPTING_PLAYBOOK.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 473,
+    "native": true,
+    "target_stage": "P01"
+  },
+  {
+    "source_file": "P02_RESEARCH_SYSTEMS.md",
+    "title": "P02 – Research Systems",
+    "lines": 12,
+    "native": true,
+    "target_stage": "P02"
+  },
+  {
+    "source_file": "P02_RESEARCH_SYSTEMS.md",
+    "title": "Universal Primer – Best Practices Guide",
+    "lines": 16,
+    "native": true,
+    "target_stage": "P02"
+  },
+  {
+    "source_file": "P02_RESEARCH_SYSTEMS.md",
+    "title": "2. Wie du Fragen optimal stellst",
+    "lines": 39,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P02_RESEARCH_SYSTEMS.md",
+    "title": "👌 Academic Assistant Pro – So nutzt du mich optimal (Kurzanleitung)",
+    "lines": 78,
+    "native": true,
+    "target_stage": "P02"
+  },
+  {
+    "source_file": "P02_RESEARCH_SYSTEMS.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 2067,
+    "native": true,
+    "target_stage": "P02"
+  },
+  {
+    "source_file": "P03_PRD_AND_PLANNING.md",
+    "title": "P03 – PRD & Planning",
+    "lines": 58,
+    "native": true,
+    "target_stage": "P03"
+  },
+  {
+    "source_file": "P03_PRD_AND_PLANNING.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 53,
+    "native": true,
+    "target_stage": "P03"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "P04 – Diagrams & Architecture",
+    "lines": 18,
+    "native": true,
+    "target_stage": "P04"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 93,
+    "native": true,
+    "target_stage": "P04"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "Nutzung dieses Legal & Contracts GPT",
+    "lines": 24,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "Nutzung dieses GPTs – Überblick",
+    "lines": 19,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "Titel",
+    "lines": 44,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "Wolfram-GPT: Leitfaden zur optimalen Interaktion",
+    "lines": 52,
+    "native": true,
+    "target_stage": "P04"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "7. Dinge, die du vermeiden solltest",
+    "lines": 9,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P04_DIAGRAMS_AND_ARCHITECTURE.md",
+    "title": "8. Beispiel für eine perfekte Startfrage",
+    "lines": 134,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P05_COMPUTATION_WOLFRAM.md",
+    "title": "P05 – Computation & Data (Wolfram)",
+    "lines": 61,
+    "native": true,
+    "target_stage": "P05"
+  },
+  {
+    "source_file": "P05_COMPUTATION_WOLFRAM.md",
+    "title": "Wolfram-GPT: Leitfaden zur optimalen Interaktion",
+    "lines": 95,
+    "native": true,
+    "target_stage": "P05"
+  },
+  {
+    "source_file": "P05_COMPUTATION_WOLFRAM.md",
+    "title": "Universal Primer – Best Practices Guide",
+    "lines": 16,
+    "native": true,
+    "target_stage": "P05"
+  },
+  {
+    "source_file": "P05_COMPUTATION_WOLFRAM.md",
+    "title": "2. Wie du Fragen optimal stellst",
+    "lines": 16,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P05_COMPUTATION_WOLFRAM.md",
+    "title": "6. Fortgeschrittene Nutzung",
+    "lines": 396,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "P06 – Build & Debug (R / Data workflows)",
+    "lines": 5,
+    "native": true,
+    "target_stage": "P06"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Leitfaden: So nutzt du dieses Copywriter-GPT optimal",
+    "lines": 95,
+    "native": false,
+    "target_stage": "08_MARKETING_GTM"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Leitfaden zur optimalen Nutzung dieses GPT",
+    "lines": 64,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 93,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Nutzung dieses Legal & Contracts GPT",
+    "lines": 46,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "10 effektive Prompt-Beispiele + 3 Workflows für dieses Legal & Contracts GPT",
+    "lines": 46,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Nutzung dieses GPTs – Überblick",
+    "lines": 19,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Titel",
+    "lines": 44,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Wolfram-GPT: Leitfaden zur optimalen Interaktion",
+    "lines": 56,
+    "native": false,
+    "target_stage": "05_ARCHITECTURE_DIAGRAMS"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Universal Primer – Best Practices Guide",
+    "lines": 16,
+    "native": false,
+    "target_stage": "01_SETUP_PROMPTING"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "2. Wie du Fragen optimal stellst",
+    "lines": 7,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "3. Besonders effektive Prompt-Struktur",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "4. Arten von Antworten, die du erwarten kannst",
+    "lines": 11,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "5. Extrem effektive Fragen (Beispiele)",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "6. Dinge, die besonders gut funktionieren",
+    "lines": 15,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "7. Dinge, die du vermeiden solltest",
+    "lines": 9,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "8. Beispiel für eine perfekte Startfrage",
+    "lines": 29,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "2) Welche Schritte ich durchgehe, wenn ich eine Anfrage bearbeite",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "👌 Academic Assistant Pro – So nutzt du mich optimal (Kurzanleitung)",
+    "lines": 115,
+    "native": false,
+    "target_stage": "02_RESEARCH_VALIDATION"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 57,
+    "native": false,
+    "target_stage": "01_SETUP_PROMPTING"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "DesignerGPT – Interaktionsleitfaden (Kurz-Handbuch)",
+    "lines": 92,
+    "native": false,
+    "target_stage": "04_UX_UI"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Nutzung dieses Website-Generator GPTs",
+    "lines": 60,
+    "native": false,
+    "target_stage": "08_MARKETING_GTM"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "R Wizard – Effektive Nutzung (User Guide)",
+    "lines": 19,
+    "native": true,
+    "target_stage": "P06"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "2. Wie du am besten Fragen stellst",
+    "lines": 26,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "3. Welche Arten von Antworten du erwarten kannst",
+    "lines": 48,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Remove outliers to stabilize regression",
+    "lines": 5,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "Filter rows",
+    "lines": 4,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "5. Besonders gute Prompts",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P06_BUILD_DEBUG_R.md",
+    "title": "6. Fortgeschrittene Nutzung",
+    "lines": 2252,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "P07 – Legal & Contracts",
+    "lines": 102,
+    "native": true,
+    "target_stage": "P07"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "Leitfaden zur optimalen Nutzung dieses GPT",
+    "lines": 93,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "10 effektive Prompt-Beispiele + 3 Workflows für dieses Legal & Contracts GPT",
+    "lines": 46,
+    "native": true,
+    "target_stage": "P07"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "Nutzung dieses GPTs – Überblick",
+    "lines": 102,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "2) Welche Schritte ich durchgehe, wenn ich eine Anfrage bearbeite",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "👌 Academic Assistant Pro – So nutzt du mich optimal (Kurzanleitung)",
+    "lines": 78,
+    "native": false,
+    "target_stage": "02_RESEARCH_VALIDATION"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 416,
+    "native": true,
+    "target_stage": "P07"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "Corrected Version",
+    "lines": 2,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "Tone Analysis",
+    "lines": 2,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P07_LEGAL_AND_CONTRACTS.md",
+    "title": "Changes & Explanations",
+    "lines": 29,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "P08 – Brand & Visual Design",
+    "lines": 5,
+    "native": true,
+    "target_stage": "P08"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Leitfaden: So nutzt du dieses Copywriter-GPT optimal",
+    "lines": 95,
+    "native": false,
+    "target_stage": "08_MARKETING_GTM"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Leitfaden zur optimalen Nutzung dieses GPT",
+    "lines": 99,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 83,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Universal Primer – Best Practices Guide",
+    "lines": 16,
+    "native": false,
+    "target_stage": "01_SETUP_PROMPTING"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "2. Wie du Fragen optimal stellst",
+    "lines": 37,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "3. Besonders effektive Prompt-Struktur",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "4. Arten von Antworten, die du erwarten kannst",
+    "lines": 11,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "5. Extrem effektive Fragen (Beispiele)",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "6. Dinge, die besonders gut funktionieren",
+    "lines": 15,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "7. Dinge, die du vermeiden solltest",
+    "lines": 9,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "8. Beispiel für eine perfekte Startfrage",
+    "lines": 25,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Hi, ich bin Liam 👋  (dein PRESENTATION-GPT)",
+    "lines": 16,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "1) Meine primären Kern-Direktiven (High-Level)",
+    "lines": 19,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "2) Welche Schritte ich durchgehe, wenn ich eine Anfrage bearbeite",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "👌 Academic Assistant Pro – So nutzt du mich optimal (Kurzanleitung)",
+    "lines": 78,
+    "native": false,
+    "target_stage": "02_RESEARCH_VALIDATION"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 57,
+    "native": false,
+    "target_stage": "01_SETUP_PROMPTING"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "DesignerGPT – Interaktionsleitfaden (Kurz-Handbuch)",
+    "lines": 98,
+    "native": true,
+    "target_stage": "P08"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Nutzung dieses Website-Generator GPTs",
+    "lines": 60,
+    "native": false,
+    "target_stage": "08_MARKETING_GTM"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "R Wizard – Effektive Nutzung (User Guide)",
+    "lines": 19,
+    "native": false,
+    "target_stage": "06_BUILD_VIBE_CODING"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "2. Wie du am besten Fragen stellst",
+    "lines": 12,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Remove outliers to stabilize regression",
+    "lines": 5,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "Filter rows",
+    "lines": 4,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "5. Besonders gute Prompts",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P08_BRAND_AND_VISUAL_DESIGN.md",
+    "title": "6. Fortgeschrittene Nutzung",
+    "lines": 820,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P09_WEBSITE_BUILD.md",
+    "title": "P09 – Website & Landing Page Build",
+    "lines": 5,
+    "native": true,
+    "target_stage": "P09"
+  },
+  {
+    "source_file": "P09_WEBSITE_BUILD.md",
+    "title": "Leitfaden: So nutzt du dieses Copywriter-GPT optimal",
+    "lines": 68,
+    "native": false,
+    "target_stage": "08_MARKETING_GTM"
+  },
+  {
+    "source_file": "P09_WEBSITE_BUILD.md",
+    "title": "DesignerGPT – Interaktionsleitfaden (Kurz-Handbuch)",
+    "lines": 107,
+    "native": true,
+    "target_stage": "P09"
+  },
+  {
+    "source_file": "P09_WEBSITE_BUILD.md",
+    "title": "Nutzung dieses Website-Generator GPTs",
+    "lines": 225,
+    "native": true,
+    "target_stage": "P09"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "P10 – Copywriting & Messaging",
+    "lines": 5,
+    "native": true,
+    "target_stage": "P10"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "Leitfaden: So nutzt du dieses Copywriter-GPT optimal",
+    "lines": 127,
+    "native": true,
+    "target_stage": "P10"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 53,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "10 effektive Prompt-Beispiele + 3 Workflows für dieses Legal & Contracts GPT",
+    "lines": 69,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "5. Extrem effektive Fragen (Beispiele)",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "6. Dinge, die besonders gut funktionieren",
+    "lines": 17,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "👌 Academic Assistant Pro – So nutzt du mich optimal (Kurzanleitung)",
+    "lines": 115,
+    "native": false,
+    "target_stage": "02_RESEARCH_VALIDATION"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 28,
+    "native": false,
+    "target_stage": "01_SETUP_PROMPTING"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "DesignerGPT – Interaktionsleitfaden (Kurz-Handbuch)",
+    "lines": 92,
+    "native": false,
+    "target_stage": "04_UX_UI"
+  },
+  {
+    "source_file": "P10_COPYWRITING_MESSAGING.md",
+    "title": "Nutzung dieses Website-Generator GPTs",
+    "lines": 1961,
+    "native": false,
+    "target_stage": "08_MARKETING_GTM"
+  },
+  {
+    "source_file": "P11_CONTENT_GROWTH_SYSTEMS.md",
+    "title": "P11 – Content & Growth Systems",
+    "lines": 5,
+    "native": true,
+    "target_stage": "P11"
+  },
+  {
+    "source_file": "P11_CONTENT_GROWTH_SYSTEMS.md",
+    "title": "Leitfaden: So nutzt du dieses Copywriter-GPT optimal",
+    "lines": 198,
+    "native": true,
+    "target_stage": "P11"
+  },
+  {
+    "source_file": "P11_CONTENT_GROWTH_SYSTEMS.md",
+    "title": "Hi, ich bin Liam 👋  (dein PRESENTATION-GPT)",
+    "lines": 16,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P11_CONTENT_GROWTH_SYSTEMS.md",
+    "title": "1) Meine primären Kern-Direktiven (High-Level)",
+    "lines": 19,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P11_CONTENT_GROWTH_SYSTEMS.md",
+    "title": "2) Welche Schritte ich durchgehe, wenn ich eine Anfrage bearbeite",
+    "lines": 2353,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "P12 – Rewrite & Tone Polish",
+    "lines": 5,
+    "native": true,
+    "target_stage": "P12"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Leitfaden: So nutzt du dieses Copywriter-GPT optimal",
+    "lines": 203,
+    "native": true,
+    "target_stage": "P12"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "SlidesGPT – Nutzungsleitfaden (Kern-Direktiven, Ablauf, Formate & Grenzen)",
+    "lines": 127,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Nutzung dieses Legal & Contracts GPT",
+    "lines": 10,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "10 effektive Prompt-Beispiele + 3 Workflows für dieses Legal & Contracts GPT",
+    "lines": 111,
+    "native": false,
+    "target_stage": "10_HANDOFF_LEGAL"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "3. Besonders effektive Prompt-Struktur",
+    "lines": 18,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "4. Arten von Antworten, die du erwarten kannst",
+    "lines": 14,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "7. Dinge, die du vermeiden solltest",
+    "lines": 9,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "8. Beispiel für eine perfekte Startfrage",
+    "lines": 25,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Hi, ich bin Liam 👋  (dein PRESENTATION-GPT)",
+    "lines": 16,
+    "native": false,
+    "target_stage": "CROSS_SLIDES"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "1) Meine primären Kern-Direktiven (High-Level)",
+    "lines": 19,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "2) Welche Schritte ich durchgehe, wenn ich eine Anfrage bearbeite",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "👌 Academic Assistant Pro – So nutzt du mich optimal (Kurzanleitung)",
+    "lines": 78,
+    "native": false,
+    "target_stage": "02_RESEARCH_VALIDATION"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Khanmigo Lite – So nutzt du mich am besten",
+    "lines": 57,
+    "native": false,
+    "target_stage": "01_SETUP_PROMPTING"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "DesignerGPT – Interaktionsleitfaden (Kurz-Handbuch)",
+    "lines": 129,
+    "native": false,
+    "target_stage": "04_UX_UI"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "R Wizard – Effektive Nutzung (User Guide)",
+    "lines": 19,
+    "native": true,
+    "target_stage": "P12"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "2. Wie du am besten Fragen stellst",
+    "lines": 43,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Remove outliers to stabilize regression",
+    "lines": 5,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Filter rows",
+    "lines": 4,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "5. Besonders gute Prompts",
+    "lines": 31,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "6. Fortgeschrittene Nutzung",
+    "lines": 975,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Corrected Version",
+    "lines": 2,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Tone Analysis",
+    "lines": 2,
+    "native": true,
+    "target_stage": "P12"
+  },
+  {
+    "source_file": "P12_REWRITE_AND_TONE.md",
+    "title": "Changes & Explanations",
+    "lines": 1144,
+    "native": false,
+    "target_stage": "UNCLASSIFIED"
+  }
+]
