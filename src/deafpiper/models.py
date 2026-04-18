@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field, asdict
 from datetime import datetime, timezone
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Mapping, Optional
 
 
 def _now_iso() -> str:
@@ -197,3 +197,14 @@ class AuditEntryStore:
 
     def list_entries(self) -> List[AuditEntry]:
         return list(self._entries)
+
+    def snapshot(self) -> List[Dict[str, Any]]:
+        return [entry.to_dict() for entry in self._entries]
+
+    def restore(self, entries: List[Mapping[str, Any]]) -> None:
+        restored: List[AuditEntry] = []
+        for raw in entries:
+            restored.append(AuditEntry(**dict(raw)))
+        self._entries = []
+        for entry in restored:
+            self.append(entry)
