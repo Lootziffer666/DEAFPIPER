@@ -1,0 +1,21 @@
+{
+  "what_happened": "",
+  "impact": "",
+  "root_causes": [
+    ""
+  ],
+  "what_went_well": [
+    ""
+  ],
+  "what_went_wrong": [
+    ""
+  ],
+  "action_items": [
+    {
+      "item": "",
+      "owner": "",
+      "due_date": "",
+      "status": "open|done"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "summary": {
+    "product": "",
+    "version": "",
+    "date": "",
+    "overall_status": "go|no_go|conditional_go"
+  },
+  "test_coverage": {
+    "p0_pass_rate": "",
+    "p1_pass_rate": "",
+    "known_open_bugs": [
+      {
+        "id": "",
+        "severity": "S0|S1|S2|S3",
+        "description": "",
+        "workaround": "",
+        "fix_eta": ""
+      }
+    ]
+  },
+  "security_status": {
+    "threat_model_reviewed": false,
+    "top_risks_mitigated": false,
+    "open_findings": [
+      {
+        "finding": "",
+        "severity": "critical|high|medium|low",
+        "status": "open|mitigated|accepted"
+      }
+    ]
+  },
+  "compliance_status": {
+    "dpia_complete": false,
+    "privacy_policy_ready": false,
+    "terms_ready": false,
+    "cookie_banner_ready": false,
+    "imprint_ready": false,
+    "notes": ""
+  },
+  "performance_baseline": {
+    "p95_latency": "",
+    "error_rate": "",
+    "notes": ""
+  },
+  "go_no_go_decision": {
+    "decision": "go|no_go|conditional_go",
+    "conditions": [
+      ""
+    ],
+    "blockers": [
+      ""
+    ],
+    "accepted_risks": [
+      ""
+    ],
+    "sign_off": ""
+  }
+}

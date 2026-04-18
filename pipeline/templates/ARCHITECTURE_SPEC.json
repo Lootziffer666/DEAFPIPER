@@ -1,0 +1,66 @@
+{
+  "context": {
+    "summary": "",
+    "constraints": [
+      ""
+    ]
+  },
+  "system_diagrams": {
+    "c4_context": "",
+    "c4_container": "",
+    "c4_component": "",
+    "sequence_diagrams": [
+      ""
+    ]
+  },
+  "tech_stack": {
+    "frontend": "",
+    "backend": "",
+    "db": "",
+    "infra": "",
+    "auth": ""
+  },
+  "data_model": {
+    "entities": [
+      {
+        "name": "",
+        "fields": [
+          {
+            "name": "",
+            "type": "",
+            "notes": ""
+          }
+        ]
+      }
+    ]
+  },
+  "apis": [
+    {
+      "method": "GET|POST|PUT|DELETE",
+      "path": "",
+      "request_schema": {},
+      "response_schema": {},
+      "auth": "",
+      "errors": [
+        ""
+      ]
+    }
+  ],
+  "adr": [
+    {
+      "title": "",
+      "decision": "",
+      "alternatives": [
+        ""
+      ],
+      "tradeoffs": "",
+      "date": ""
+    }
+  ],
+  "operability": {
+    "logging": "",
+    "metrics": "",
+    "alerts": "",
+    "backup_restore": ""
+  }
+}

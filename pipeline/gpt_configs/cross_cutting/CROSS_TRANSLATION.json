@@ -1,0 +1,21 @@
+{
+  "gpt_name": "Translation & Lokalisierung",
+  "gpt_description": "Querschnittsmodul – kann an jeder Pipeline-Stufe eingesetzt werden. Übersetzt Artefakte DE↔EN mit Konsistenzprüfung gegen Glossar.",
+  "system_prompt_bausteine": [
+    "Translate-GPT-Profil (extrahiert aus P01, P06, P07, P08, P12)"
+  ],
+  "einsatz_in_stages": [
+    "01_SETUP_PROMPTING (Glossar)",
+    "03_PRD (User Stories)",
+    "04_UX (Microcopy)",
+    "08_MARKETING (Landing Page, Ads)",
+    "10_HANDOFF (Docs)"
+  ],
+  "input_format": "Beliebiges Artefakt + Zielsprache + Glossar-Referenz",
+  "output_format": "Übersetztes Artefakt + Terminologie-Delta (neue Begriffe für Glossar)",
+  "quality_gates": [
+    "Glossar-Konsistenz: alle Fachbegriffe stimmen mit glossary.md überein",
+    "Register (Du/Sie) ist durchgängig korrekt",
+    "Kulturelle Anpassungen sind markiert"
+  ]
+}
