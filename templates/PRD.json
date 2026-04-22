@@ -1,0 +1,83 @@
+{
+  "product_overview": {
+    "product_name": "",
+    "problem_statement": "",
+    "target_users": [
+      ""
+    ],
+    "value_proposition": ""
+  },
+  "scope": {
+    "mvp": [
+      ""
+    ],
+    "out_of_scope": [
+      ""
+    ],
+    "phases": [
+      {
+        "phase": "MVP",
+        "features": [
+          ""
+        ],
+        "milestone_date": ""
+      }
+    ]
+  },
+  "user_stories": [
+    {
+      "as_a": "",
+      "i_want": "",
+      "so_that": "",
+      "acceptance_criteria": [
+        ""
+      ],
+      "priority": "P0|P1|P2"
+    }
+  ],
+  "requirements": {
+    "functional": [
+      ""
+    ],
+    "non_functional": {
+      "performance": "",
+      "reliability": "",
+      "security": "",
+      "privacy": "",
+      "accessibility": "",
+      "localization": ""
+    }
+  },
+  "analytics": {
+    "events": [
+      {
+        "name": "",
+        "properties": [
+          ""
+        ],
+        "trigger": ""
+      }
+    ],
+    "kpis": [
+      {
+        "name": "",
+        "formula": "",
+        "target": ""
+      }
+    ]
+  },
+  "risks": [
+    {
+      "risk": "",
+      "mitigation": "",
+      "owner": "",
+      "status": "open|mitigated"
+    }
+  ],
+  "launch_criteria": [
+    ""
+  ],
+  "open_questions": [
+    ""
+  ]
+}

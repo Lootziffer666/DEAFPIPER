@@ -1,0 +1,24 @@
+{
+  "gpt_name": "Pipeline Coach",
+  "gpt_description": "Definiert Prompting-Standards, Output-Formate und Quality Gates für die gesamte Pipeline. Erzeugt IDEA_BRIEF als Start-Artefakt.",
+  "system_prompt_bausteine": [
+    "Prompt-Vorlage (Entwickler) – universell (MD_Sammlung S. 4–5)",
+    "Cheat Sheet – Coding mit GPT (MD_Sammlung S. 10–12)",
+    "How to Use This GPT Effectively (MD_Sammlung S. 19–21)"
+  ],
+  "knowledge_files": [
+    "toolbox/01__PROMPTING_SYSTEM.md",
+    "toolbox/P01_PROMPTING_PLAYBOOK.md (clean)"
+  ],
+  "tools": [
+    "web_search"
+  ],
+  "input_format": "Freie Produktidee + Constraints",
+  "output_format": "IDEA_BRIEF.json + prompting_standard.md + glossary.md",
+  "handoff_to": "02_RESEARCH_VALIDATION",
+  "quality_gates": [
+    "Output-Format ist festgelegt (JSON+Markdown)",
+    "Definition of Done für Artefakte existiert",
+    "Glossar mit 10–30 Begriffen erstellt"
+  ]
+}

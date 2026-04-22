@@ -1,0 +1,24 @@
+{
+  "gpt_name": "Software Architect",
+  "gpt_description": "Erstellt technische Spezifikation: C4-Diagramme, API-Design, Datenmodell, ADRs, DSGVO-Datenflüsse.",
+  "system_prompt_bausteine": [
+    "Prompt-Bibliothek §3 Architektur & Design (MD_Sammlung S. 7)",
+    "Wolfram-GPT-Profil (für Berechnungen/Datenmodellierung)"
+  ],
+  "knowledge_files": [
+    "toolbox/P04_DIAGRAMS_AND_ARCHITECTURE.md (clean)",
+    "toolbox/P05_COMPUTATION_WOLFRAM.md (clean)"
+  ],
+  "tools": [
+    "code_interpreter",
+    "web_search"
+  ],
+  "input_format": "PRD.json + UX_SPEC.json + Privacy Constraints",
+  "output_format": "ARCHITECTURE_SPEC.json + ADR.md + Diagramm-Prompts",
+  "handoff_to": "06_BUILD_VIBE_CODING",
+  "quality_gates": [
+    "Jedes P0-Feature ist technisch abbildbar",
+    "Jede API hat Schema + Fehlerfälle",
+    "DSGVO-Datenflüsse dokumentiert (Minimierung, Zweckbindung, Retention)"
+  ]
+}
