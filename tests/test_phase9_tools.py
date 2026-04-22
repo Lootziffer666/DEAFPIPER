@@ -21,6 +21,10 @@ class Phase9ToolingTests(unittest.TestCase):
         self.assertTrue(Path("templates/PRD.json").exists())
         self.assertTrue(Path("gpt_configs/01_SETUP_PROMPTING.json").exists())
 
+    def test_root_cli_has_repo_health_command(self):
+        content = Path("deafpiper_tool.py").read_text(encoding="utf-8")
+        self.assertIn("repo-health", content)
+
 
 if __name__ == "__main__":
     unittest.main()

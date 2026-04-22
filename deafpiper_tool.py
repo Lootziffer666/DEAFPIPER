@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parent
@@ -35,6 +36,34 @@ def cmd_list_known_issues(path: str = "docs/KNOWN_ISSUES.md") -> None:
     print(issue_file.read_text(encoding="utf-8"))
 
 
+def cmd_repo_health() -> None:
+    """Reports git branch/remote health and avoids 'branch invalid' ambiguity."""
+    def run_git(args: list[str]) -> str:
+        proc = subprocess.run(["git", *args], capture_output=True, text=True)
+        return proc.stdout.strip() if proc.returncode == 0 else ""
+
+    local_branches = run_git(["branch", "--format=%(refname:short)"]).splitlines()
+    remote_branches = run_git(["branch", "-r", "--format=%(refname:short)"]).splitlines()
+    remotes = run_git(["remote", "-v"]).splitlines()
+
+    main_local = "main" in local_branches
+    main_remote = any(branch.endswith("/main") for branch in remote_branches)
+
+    payload = {
+        "main_local": main_local,
+        "main_remote": main_remote,
+        "local_branches": local_branches,
+        "remote_branches": remote_branches,
+        "remotes": remotes,
+        "advice": (
+            "main branch available"
+            if (main_local or main_remote)
+            else "no main found; set remote and fetch or create local main"
+        ),
+    }
+    print(json.dumps(payload, indent=2))
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Unified DeafPiper CLI tool")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -49,6 +78,8 @@ def build_parser() -> argparse.ArgumentParser:
     known_cmd = sub.add_parser("list-known-issues", help="Print KNOWN_ISSUES.md")
     known_cmd.add_argument("--path", default="docs/KNOWN_ISSUES.md")
 
+    sub.add_parser("repo-health", help="Show git branch/remote health (incl. main availability)")
+
     return parser
 
 
@@ -62,6 +93,8 @@ def main() -> None:
         cmd_replay_audit(args.subject_id, args.timestamp)
     elif args.command == "list-known-issues":
         cmd_list_known_issues(args.path)
+    elif args.command == "repo-health":
+        cmd_repo_health()
 
 
 if __name__ == "__main__":
