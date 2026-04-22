@@ -1,0 +1,55 @@
+{
+  "service_name": "",
+  "version": "",
+  "date": "",
+  "environments": [
+    {
+      "name": "local|staging|production",
+      "url": "",
+      "infra": "",
+      "env_vars": [
+        { "key": "", "source": "env_file|secret_manager|hardcoded", "required": true }
+      ]
+    }
+  ],
+  "dependencies": {
+    "runtime": "",
+    "system_packages": [""],
+    "external_services": [
+      { "service": "", "version": "", "config_notes": "" }
+    ]
+  },
+  "build_steps": {
+    "install": "",
+    "build": "",
+    "test": "",
+    "lint": ""
+  },
+  "deploy_steps": {
+    "staging": "",
+    "production": "",
+    "rollback": ""
+  },
+  "ci_cd": {
+    "provider": "",
+    "config_file": "",
+    "pipeline_steps": [""],
+    "secrets_handling": ""
+  },
+  "monitoring": {
+    "health_check_url": "",
+    "log_location": "",
+    "alert_channels": [""],
+    "key_dashboards": [""]
+  },
+  "database": {
+    "type": "",
+    "migration_command": "",
+    "backup_strategy": "",
+    "seed_data": ""
+  },
+  "verification_after_deploy": [
+    { "check": "", "how": "", "expected_result": "" }
+  ],
+  "known_issues": [""]
+}

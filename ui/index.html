@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeafPiper UI Skeleton</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>DeafPiper Console</h1>
+      <p>Read-only MVP: Dashboard + Task Detail</p>
+    </header>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+      <button class="nav-btn" data-view="tasks">Tasks</button>
+      <button class="nav-btn" data-view="task-detail">Task Detail</button>
+      <button class="nav-btn" data-view="candidate-review">Candidate Review</button>
+      <button class="nav-btn" data-view="dead-end-center">Dead-End Center</button>
+      <button class="nav-btn" data-view="budget-provider">Budget &amp; Provider</button>
+      <button class="nav-btn" data-view="known-issues">Known Issues</button>
+    </nav>
+
+    <main id="app" class="container">
+      <section id="dashboard" class="view"></section>
+      <section id="tasks" class="view hidden"></section>
+      <section id="task-detail" class="view hidden"></section>
+      <section id="candidate-review" class="view hidden"></section>
+      <section id="dead-end-center" class="view hidden"></section>
+      <section id="budget-provider" class="view hidden"></section>
+      <section id="known-issues" class="view hidden"></section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
