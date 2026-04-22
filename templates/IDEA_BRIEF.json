@@ -1,0 +1,45 @@
+{
+  "product_name": "",
+  "one_liner": "",
+  "target_users": [
+    ""
+  ],
+  "primary_pain": "",
+  "desired_outcome": "",
+  "why_now": "",
+  "non_goals": [
+    ""
+  ],
+  "constraints": {
+    "platforms": [
+      "web",
+      "ios",
+      "android",
+      "desktop",
+      "api",
+      "other"
+    ],
+    "budget_time": "",
+    "privacy_security": "",
+    "localization": [
+      "de",
+      "en"
+    ],
+    "accessibility": ""
+  },
+  "success_criteria": {
+    "north_star_metric": "",
+    "activation": "",
+    "retention": "",
+    "revenue_or_value": ""
+  },
+  "assumptions_to_test": [
+    {
+      "assumption": "",
+      "risk": "high|medium|low",
+      "test": "",
+      "evidence_needed": ""
+    }
+  ],
+  "notes": ""
+}

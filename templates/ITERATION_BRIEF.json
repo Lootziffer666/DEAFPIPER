@@ -1,0 +1,35 @@
+{
+  "iteration_name": "",
+  "period": "",
+  "trigger": "scheduled_review|metric_alert|user_feedback|experiment_result|incident",
+  "learnings": [
+    {
+      "insight": "",
+      "source": "analytics|feedback|experiment|incident|support",
+      "evidence": "",
+      "confidence": "high|medium|low"
+    }
+  ],
+  "metric_snapshot": {
+    "north_star": { "current": "", "target": "", "trend": "up|flat|down" },
+    "key_funnels": [
+      { "funnel": "", "conversion": "", "change": "" }
+    ]
+  },
+  "validated_hypotheses": [
+    { "hypothesis": "", "result": "validated|invalidated|inconclusive", "next_step": "" }
+  ],
+  "proposed_changes": [
+    {
+      "target_stage": "02_RESEARCH|03_PRD|04_UX|05_ARCHITECTURE|06_BUILD|07_QA|08_MARKETING",
+      "change": "",
+      "priority": "P0|P1|P2",
+      "rationale": "",
+      "effort_estimate": ""
+    }
+  ],
+  "updated_assumptions": [
+    { "assumption": "", "old_status": "", "new_status": "", "evidence": "" }
+  ],
+  "next_cycle_focus": ""
+}

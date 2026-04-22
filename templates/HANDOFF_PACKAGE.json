@@ -1,0 +1,44 @@
+{
+  "repository": {
+    "url": "",
+    "branch": "",
+    "how_to_run": ""
+  },
+  "docs": {
+    "prd": "PRD.json",
+    "ux": "UX_SPEC.json",
+    "architecture": "ARCHITECTURE_SPEC.json"
+  },
+  "operations": {
+    "monitoring": "",
+    "alerts": "",
+    "runbooks": [
+      ""
+    ],
+    "on_call": ""
+  },
+  "legal": {
+    "contracts": [
+      ""
+    ],
+    "licenses": "",
+    "third_party_services": [
+      ""
+    ]
+  },
+  "marketing_assets": {
+    "brand_kit": "",
+    "landing_page": "",
+    "copy_docs": [
+      ""
+    ],
+    "content_calendar": ""
+  },
+  "open_items": [
+    {
+      "item": "",
+      "risk": "",
+      "owner": ""
+    }
+  ]
+}
