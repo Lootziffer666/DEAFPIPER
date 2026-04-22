@@ -1,0 +1,31 @@
+{
+  "test_matrix": [
+    {
+      "area": "",
+      "type": "unit|integration|e2e|manual",
+      "cases": [
+        ""
+      ],
+      "priority": "P0|P1|P2"
+    }
+  ],
+  "regressions": [
+    ""
+  ],
+  "test_data": {
+    "needs": "",
+    "privacy_notes": ""
+  },
+  "release_checks": [
+    ""
+  ],
+  "bug_triage": {
+    "severity_levels": [
+      "S0",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "sla": ""
+  }
+}
