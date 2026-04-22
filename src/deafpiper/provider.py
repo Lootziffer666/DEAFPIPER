@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Dict, List, Mapping, Sequence
+from typing import Any, Dict, List, Mapping
 
 from .agent_instruction import AgentInstructionSet
 from .audit import AuditLogger
@@ -28,52 +28,22 @@ class ModelCapabilityRegistry:
             raise KeyError(f"Unknown model_id: {model_id}")
         return dict(self._capabilities[model_id])
 
-    def candidate_models(self) -> List[str]:
-        return sorted(self._capabilities)
-
 
 class ProviderResolver:
     def __init__(self, capability_registry: ModelCapabilityRegistry) -> None:
         self.capability_registry = capability_registry
 
-    @staticmethod
-    def _supports(capabilities: Mapping[str, Any], required: Sequence[str]) -> bool:
-        for requirement in required:
-            if not capabilities.get(requirement, False):
-                return False
-        return True
-
     def resolve(self, instruction_set: AgentInstructionSet, policy: Mapping[str, Any]) -> ProviderBinding:
-        default_model = str(policy.get("default_model", "model-default"))
-        provider_id = str(policy.get("provider_id", "local"))
-        endpoint_ref = str(policy.get("endpoint_ref", "local://runtime"))
-        required_caps = list(policy.get("required_capabilities", []))
-
-        selected_model = default_model
-        try:
-            capabilities = self.capability_registry.query(default_model)
-            if required_caps and not self._supports(capabilities, required_caps):
-                raise KeyError(default_model)
-        except KeyError:
-            selected_model = ""
-            capabilities = {}
-            for model_id in self.capability_registry.candidate_models():
-                candidate = self.capability_registry.query(model_id)
-                if self._supports(candidate, required_caps):
-                    selected_model = model_id
-                    capabilities = candidate
-                    break
-            if not selected_model:
-                raise KeyError(f"No model satisfies required_capabilities={required_caps}")
+        default_model = policy.get("default_model", "model-default")
+        provider_id = policy.get("provider_id", "local")
+        endpoint_ref = policy.get("endpoint_ref", "local://runtime")
+        capabilities = self.capability_registry.query(default_model)
 
         return ProviderBinding(
             provider_id=provider_id,
-            model_id=selected_model,
+            model_id=default_model,
             endpoint_ref=endpoint_ref,
-            cost_profile={
-                "in_per_million": float(policy.get("in_per_million", 0.0)),
-                "out_per_million": float(policy.get("out_per_million", 0.0)),
-            },
+            cost_profile={"in_per_million": float(policy.get("in_per_million", 0.0)), "out_per_million": float(policy.get("out_per_million", 0.0))},
             capabilities=capabilities,
         )
 
@@ -112,19 +82,7 @@ class ToolBroker:
         if tool_id not in allowed:
             result = {"status": "denied", "error": "tool not in allow-list"}
         else:
-            tool_scope = allowed[tool_id]
-            required_caps = tool_scope.get("requires_capabilities", [])
-            provider_caps = params.get("provider_capabilities", {})
-            missing_caps = [cap for cap in required_caps if not provider_caps.get(cap, False)]
-            if missing_caps:
-                result = {"status": "denied", "error": f"missing provider capabilities: {missing_caps}"}
-            else:
-                result = {
-                    "status": "ok",
-                    "tool_id": tool_id,
-                    "params": dict(params),
-                    "scope": tool_scope,
-                }
+            result = {"status": "ok", "tool_id": tool_id, "params": dict(params), "scope": allowed[tool_id]}
 
         if self.audit_logger:
             self.audit_logger.log(

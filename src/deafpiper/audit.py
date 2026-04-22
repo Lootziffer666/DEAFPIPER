@@ -2,9 +2,9 @@ from __future__ import annotations
 
 import hashlib
 import json
+from dataclasses import asdict
 from datetime import datetime, timezone
-from pathlib import Path
-from typing import Any, Dict, List, Mapping, Optional
+from typing import Any, Dict, Iterable, List, Mapping, Optional
 
 from .models import AuditEntry, AuditEntryStore
 
@@ -24,58 +24,6 @@ class ContentStore:
 
     def get(self, payload_ref: str) -> Optional[str]:
         return self._blobs.get(payload_ref)
-
-    def list_refs(self) -> List[str]:
-        return sorted(self._blobs)
-
-    def snapshot(self) -> Dict[str, str]:
-        return dict(self._blobs)
-
-    def restore(self, snapshot: Mapping[str, str]) -> None:
-        self._blobs = dict(snapshot)
-
-
-class FileBackedContentStore(ContentStore):
-    """Persistent content store that keeps blobs in a JSON map on disk."""
-
-    def __init__(self, path: str | Path) -> None:
-        super().__init__()
-        self.path = Path(path)
-        if self.path.exists():
-            loaded = json.loads(self.path.read_text(encoding="utf-8"))
-            if isinstance(loaded, dict):
-                self.restore({str(k): str(v) for k, v in loaded.items()})
-
-    def flush(self) -> None:
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(json.dumps(self.snapshot(), indent=2, sort_keys=True), encoding="utf-8")
-
-    def put(self, payload: Mapping[str, Any] | str) -> str:
-        ref = super().put(payload)
-        self.flush()
-        return ref
-
-
-
-
-class FileBackedAuditEntryStore(AuditEntryStore):
-    """Persistent audit entry store backed by a JSON file."""
-
-    def __init__(self, path: str | Path) -> None:
-        super().__init__()
-        self.path = Path(path)
-        if self.path.exists():
-            loaded = json.loads(self.path.read_text(encoding="utf-8"))
-            if isinstance(loaded, list):
-                self.restore(loaded)
-
-    def flush(self) -> None:
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.path.write_text(json.dumps(self.snapshot(), indent=2, sort_keys=True), encoding="utf-8")
-
-    def append(self, entry: AuditEntry) -> None:
-        super().append(entry)
-        self.flush()
 
 
 class AuditLogger:

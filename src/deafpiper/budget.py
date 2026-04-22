@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Dict
+from typing import Any, Dict, Mapping
 
 from .audit import AuditLogger
 from .models import BudgetPolicy
@@ -30,8 +30,6 @@ class BudgetEnforcer:
         self.policy = policy
         self.audit_logger = audit_logger
         self.state = BudgetState()
-        self._deferred_downgrade_pending = False
-        self._breach_count = 0
 
     def record_usage(
         self,
@@ -65,42 +63,15 @@ class BudgetEnforcer:
                 "limit": int(limits["rework_iterations"]),
             }
 
-        action = self.policy.on_breach
-        pending = False
-        if breaches:
-            self._breach_count += 1
-            if self.policy.on_breach == "downgrade_deferred":
-                if self._deferred_downgrade_pending:
-                    action = "downgrade"
-                    self._deferred_downgrade_pending = False
-                else:
-                    action = "defer_downgrade"
-                    pending = True
-                    self._deferred_downgrade_pending = True
+        if breaches and self.audit_logger:
+            self.audit_logger.log(
+                actor={"type": "system", "id": "budget_enforcer"},
+                subject_type="Task",
+                subject_id=subject_id,
+                event="budget_breached",
+                previous_state="running",
+                new_state=self.policy.on_breach,
+                payload={"breaches": breaches, "on_breach": self.policy.on_breach, "state": self.state.to_dict()},
+            )
 
-            if self.audit_logger:
-                self.audit_logger.log(
-                    actor={"type": "system", "id": "budget_enforcer"},
-                    subject_type="Task",
-                    subject_id=subject_id,
-                    event="budget_breached",
-                    previous_state="running",
-                    new_state=action,
-                    payload={
-                        "breaches": breaches,
-                        "on_breach": self.policy.on_breach,
-                        "resolved_action": action,
-                        "deferred_downgrade_pending": self._deferred_downgrade_pending,
-                        "breach_count": self._breach_count,
-                        "state": self.state.to_dict(),
-                    },
-                )
-
-        return {
-            "breached": bool(breaches),
-            "breaches": breaches,
-            "on_breach": self.policy.on_breach,
-            "resolved_action": action,
-            "deferred_downgrade_pending": pending,
-            "breach_count": self._breach_count,
-        }
+        return {"breached": bool(breaches), "breaches": breaches, "on_breach": self.policy.on_breach}
