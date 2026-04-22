@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from typing import Any, Callable, Dict, Iterable, List, Mapping, Sequence, Tuple
 
 from .models import ArtifactCandidate, Constraint, TestResult, ValidationRule
+from .reproducibility import ReproducibilitySurface
 
 
 RuleEvaluator = Callable[[ArtifactCandidate, Mapping[str, Any]], Tuple[str, Dict[str, Any]]]
@@ -65,13 +66,14 @@ class ValidationRunner:
         self,
         artifact: ArtifactCandidate,
         applicable_rule_ids: Iterable[str],
-        environment_ref: str,
+        environment_ref: str | None = None,
         context: Mapping[str, Any] | None = None,
         constraints: Sequence[Constraint] | None = None,
     ) -> List[TestResult]:
         context = context or {}
         constraints = constraints or []
         executed_at = datetime.now(timezone.utc).isoformat()
+        env_ref = environment_ref or ReproducibilitySurface.build_environment_ref()
         results: List[TestResult] = []
 
         violations = self.constraint_evaluator.evaluate(constraints, context)
@@ -85,7 +87,7 @@ class ValidationRunner:
                     detail={"violations": violations},
                     duration_ms=0,
                     executed_at=executed_at,
-                    environment_ref=environment_ref,
+                    environment_ref=env_ref,
                 )
             )
 
@@ -101,7 +103,7 @@ class ValidationRunner:
                     detail=detail,
                     duration_ms=int(detail.get("duration_ms", 0)),
                     executed_at=executed_at,
-                    environment_ref=environment_ref,
+                    environment_ref=env_ref,
                 )
             )
 
