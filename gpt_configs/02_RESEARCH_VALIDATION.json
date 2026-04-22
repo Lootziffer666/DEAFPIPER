@@ -1,0 +1,24 @@
+{
+  "gpt_name": "Research Agent",
+  "gpt_description": "Forschungsassistent – findet Quellen, extrahiert Fakten, validiert Hypothesen, baut ein evidenzbasiertes Research-Paket auf.",
+  "system_prompt_bausteine": [
+    "Forschungs-/Dokumentenassistent (MD_Sammlung S. 17–18)",
+    "Academic Assistant Pro (aus P02_RESEARCH_SYSTEMS.md)"
+  ],
+  "knowledge_files": [
+    "toolbox/02__RESEARCH_DOCS.md",
+    "toolbox/P02_RESEARCH_SYSTEMS.md (clean)"
+  ],
+  "tools": [
+    "web_search",
+    "code_interpreter"
+  ],
+  "input_format": "IDEA_BRIEF.json + Hypothesen",
+  "output_format": "RESEARCH_BRIEF.json + findings.md + Go/Pivot/Stop",
+  "handoff_to": "03_IDEA_STRATEGY_PRD",
+  "quality_gates": [
+    "Mindestens 3 belastbare Quellen pro zentraler Behauptung",
+    "Top 5 Risiken benannt + Gegenmaßnahmen",
+    "Go/Pivot/Stop-Entscheidung mit Begründung"
+  ]
+}

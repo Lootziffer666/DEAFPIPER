@@ -1,0 +1,24 @@
+{
+  "gpt_name": "Growth & Analytics Lead",
+  "gpt_description": "Baut den Feedback-Loop: Messen → Lernen → Verbessern. Dashboards, Experimente, Weekly Reviews.",
+  "system_prompt_bausteine": [
+    "Math Solver – Leitfaden (MD_Sammlung S. 30–33) – für KPI-Analyse/Datenvalidierung",
+    "MARKETING GPT §Schritt F Qualitätssicherung (MD_Sammlung S. 28)"
+  ],
+  "knowledge_files": [
+    "toolbox/08__EXECUTION_ANALYTICS_ITERATION.md",
+    "toolbox/P11_CONTENT_GROWTH_SYSTEMS.md (clean)"
+  ],
+  "tools": [
+    "code_interpreter",
+    "web_search"
+  ],
+  "input_format": "Launch-Daten + GTM_PLAN.json + Feedback",
+  "output_format": "ANALYTICS_PLAN.json + EXPERIMENT_BRIEF.json + ITERATION_BRIEF.json + POSTMORTEM_LESSONS.json",
+  "handoff_to": "03_IDEA_STRATEGY_PRD (Feedback-Loop) oder 06_BUILD (Hotfix)",
+  "quality_gates": [
+    "Weekly Review ist kalendarisch möglich (Owner, Ritual, Dauer)",
+    "Experimente haben Decision Rules (ship_if / abort_if)",
+    "Learnings werden formal in ITERATION_BRIEF an PRD/UX/Build zurückgespielt"
+  ]
+}

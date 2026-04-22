@@ -1,0 +1,30 @@
+{
+  "experiment_name": "",
+  "hypothesis": "",
+  "metric": {
+    "primary": "",
+    "secondary": [
+      ""
+    ],
+    "guardrails": [
+      ""
+    ]
+  },
+  "design": {
+    "type": "A/B|before_after|qual",
+    "population": "",
+    "duration_days": 14
+  },
+  "implementation_notes": "",
+  "decision_rules": {
+    "ship_if": "",
+    "abort_if": ""
+  },
+  "results": {
+    "summary": "",
+    "data_link": "",
+    "next_steps": [
+      ""
+    ]
+  }
+}
