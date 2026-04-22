@@ -1,0 +1,21 @@
+{
+  "gpt_name": "Presentation Builder",
+  "gpt_description": "Querschnittsmodul – erzeugt Slide Decks aus Pipeline-Artefakten. SlidesGPT + Liam/PRESENTATION-GPT.",
+  "system_prompt_bausteine": [
+    "SlidesGPT-Profil (extrahiert aus P01, P03, P04, P06, P08, P10, P12)",
+    "Liam PRESENTATION-GPT-Profil (extrahiert aus P08, P11, P12)"
+  ],
+  "einsatz_in_stages": [
+    "03_PRD (PRD-Review Deck)",
+    "05_ARCHITECTURE (Architecture Overview)",
+    "08_MARKETING (Pitch Deck, Demo Deck)",
+    "10_HANDOFF (Stakeholder Summary)"
+  ],
+  "input_format": "PRD.json / ARCHITECTURE_SPEC.json / GTM_PLAN.json + Zielgruppe + Folienanzahl",
+  "output_format": "Slide-Outline (Markdown) oder PPTX via Tool",
+  "quality_gates": [
+    "Max. 1 Kernaussage pro Folie",
+    "Konsistent mit Brand-Tokens (design_tokens.md)",
+    "Sprechernotizen vorhanden"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "user_journeys": [
+    {
+      "journey_name": "",
+      "steps": [
+        ""
+      ],
+      "happy_path": true
+    }
+  ],
+  "information_architecture": {
+    "sitemap": [
+      ""
+    ]
+  },
+  "flows": [
+    {
+      "flow_name": "",
+      "screens": [
+        ""
+      ],
+      "edge_cases": [
+        ""
+      ]
+    }
+  ],
+  "ux_writing": {
+    "tone": "",
+    "microcopy": [
+      {
+        "screen": "",
+        "element": "",
+        "copy": "",
+        "notes": ""
+      }
+    ]
+  },
+  "accessibility": {
+    "wcag_level": "AA",
+    "notes": ""
+  },
+  "design_system": {
+    "tokens": {
+      "colors": "",
+      "type": "",
+      "spacing": ""
+    },
+    "components": [
+      ""
+    ]
+  },
+  "prototype_links": [
+    ""
+  ]
+}

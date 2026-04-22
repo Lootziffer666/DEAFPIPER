@@ -1,0 +1,40 @@
+{
+  "north_star_metric": "",
+  "funnels": [
+    {
+      "name": "",
+      "steps": [
+        ""
+      ],
+      "dropoff_hypothesis": ""
+    }
+  ],
+  "events": [
+    {
+      "name": "",
+      "properties": [
+        ""
+      ],
+      "notes": ""
+    }
+  ],
+  "dashboards": [
+    {
+      "tool": "",
+      "audience": "",
+      "widgets": [
+        ""
+      ]
+    }
+  ],
+  "experimentation": {
+    "process": "",
+    "guardrail_metrics": [
+      ""
+    ]
+  },
+  "cadence": {
+    "weekly_review": "",
+    "monthly_review": ""
+  }
+}

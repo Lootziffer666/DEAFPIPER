@@ -1,0 +1,21 @@
+{
+  "gpt_name": "Brand Guardian",
+  "gpt_description": "Querschnittsmodul – sichert Markenkonsistenz über alle Stages. Wird ab Stage 04 aktiv und begleitet bis Stage 08.",
+  "system_prompt_bausteine": [
+    "DesignerGPT-Profil (aus P08/P09)",
+    "Brand & Visual Design Kern-Inhalte (aus P08 clean)"
+  ],
+  "einsatz_in_stages": [
+    "04_UX (Design Tokens, Palette, Typography)",
+    "06_BUILD (UI-Komponenten prüfen)",
+    "08_MARKETING (Creatives, Landing Page, Copy)",
+    "10_HANDOFF (Brand Kit)"
+  ],
+  "input_format": "design_tokens.md + beliebiges visuelles Artefakt",
+  "output_format": "Brand-Compliance-Check + Korrekturvorschläge",
+  "quality_gates": [
+    "Farben/Fonts/Spacing stimmen mit design_tokens.md überein",
+    "Tone of Voice ist konsistent mit copy.md Vorgaben",
+    "Logo-Verwendung entspricht Guidelines"
+  ]
+}
