@@ -1,0 +1,54 @@
+{
+  "question": "",
+  "hypotheses": [
+    {
+      "hypothesis": "",
+      "confidence": "low|medium|high"
+    }
+  ],
+  "methods": [
+    "interviews",
+    "surveys",
+    "desk_research",
+    "prototype_test",
+    "market_scan"
+  ],
+  "target_segments": [
+    ""
+  ],
+  "competitive_landscape": [
+    {
+      "competitor": "",
+      "angle": "",
+      "notes": ""
+    }
+  ],
+  "regulatory_constraints": [
+    "DSGVO",
+    "Urheberrecht",
+    "Verbraucherschutz",
+    "sonstiges"
+  ],
+  "sources": [
+    {
+      "type": "paper|blog|stat|interview|other",
+      "citation": "",
+      "url_optional": "",
+      "notes": ""
+    }
+  ],
+  "findings": [
+    {
+      "finding": "",
+      "impact": "",
+      "evidence": ""
+    }
+  ],
+  "decision": {
+    "go_no_go": "go|pivot|stop",
+    "rationale": "",
+    "open_questions": [
+      ""
+    ]
+  }
+}

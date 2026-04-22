@@ -1,0 +1,221 @@
+{
+  "title": "VibeCoding Pipeline Handoff",
+  "type": "object",
+  "required": [
+    "meta",
+    "stage",
+    "input",
+    "output",
+    "next"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "pipeline_id",
+        "pipeline_version",
+        "handoff_version",
+        "created_at",
+        "locale",
+        "timezone"
+      ],
+      "properties": {
+        "pipeline_id": {
+          "type": "string"
+        },
+        "pipeline_version": {
+          "type": "string"
+        },
+        "handoff_version": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "locale": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "stage": {
+      "type": "object",
+      "required": [
+        "stage_id",
+        "stage_slug",
+        "bot_role",
+        "goal"
+      ],
+      "properties": {
+        "stage_id": {
+          "type": "string"
+        },
+        "stage_slug": {
+          "type": "string"
+        },
+        "bot_role": {
+          "type": "string"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "assumptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quality_bar": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "input": {
+      "type": "object",
+      "properties": {
+        "context": {
+          "type": "object"
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/artifact_ref"
+          }
+        },
+        "decisions_so_far": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "open_questions_in": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "output": {
+      "type": "object",
+      "required": [
+        "summary",
+        "artifacts_out",
+        "decisions",
+        "open_questions_out",
+        "risks"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string"
+        },
+        "artifacts_out": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/artifact_ref"
+          }
+        },
+        "decisions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "open_questions_out": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "risks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "acceptance_criteria": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "next": {
+      "type": "object",
+      "required": [
+        "next_stage_id",
+        "request"
+      ],
+      "properties": {
+        "next_stage_id": {
+          "type": "string"
+        },
+        "request": {
+          "type": "string"
+        },
+        "handoff_checklist": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "definitions": {
+    "artifact_ref": {
+      "type": "object",
+      "required": [
+        "name",
+        "type",
+        "description"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "produced_by_stage": {
+          "type": "string"
+        },
+        "content_hash": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
