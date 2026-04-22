@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "pipeline_id": "PIPELINE-20260304-0001",
+    "pipeline_version": "v0",
+    "handoff_version": "v0",
+    "created_at": "2026-03-04T10:00:00Z",
+    "locale": "de-DE",
+    "timezone": "Europe/Berlin",
+    "owner": ""
+  },
+  "stage": {
+    "stage_id": "01",
+    "stage_slug": "idea_intake",
+    "bot_role": "Idea Strategist",
+    "goal": "Turn a raw idea into a validated problem statement + initial scope.",
+    "assumptions": [
+      "Target users are neurodivergent knowledge workers"
+    ],
+    "constraints": [
+      "Windows-first; lightweight; minimal dependencies"
+    ],
+    "quality_bar": [
+      "Problem statement includes who/when/why",
+      "MVP scope is explicit: in-scope vs out-of-scope"
+    ]
+  },
+  "input": {
+    "context": {
+      "raw_idea": "Windows Whisper transcriber with minimal distraction UI",
+      "success_definition": "Transcribe 60min audio locally with clean UX; export txt/md"
+    },
+    "artifacts": [],
+    "decisions_so_far": [],
+    "open_questions_in": []
+  },
+  "output": {
+    "summary": "Defined target user, pain, MVP scope, and initial constraints.",
+    "artifacts_out": [
+      {
+        "name": "S01_idea_intake__artifact_01_main.md",
+        "type": "md",
+        "description": "Idea brief + MVP scope",
+        "produced_by_stage": "01",
+        "content_hash": ""
+      }
+    ],
+    "decisions": [
+      "MVP focuses on local transcription + export; no cloud accounts"
+    ],
+    "open_questions_out": [
+      "Which Whisper backend: faster-whisper vs whisper.cpp?"
+    ],
+    "risks": [
+      "Performance on low-end CPUs"
+    ],
+    "metrics": [
+      "Time-to-first-transcript < 2 min",
+      "Transcription WER acceptable for DE/EN"
+    ],
+    "acceptance_criteria": [
+      "Single-page app flow described",
+      "MVP feature list P0 stated"
+    ]
+  },
+  "next": {
+    "next_stage_id": "02",
+    "request": "Validate constraints & options for local Whisper backends; produce evidence and recommendation. Use S01_idea_intake__artifact_01_main.md as base.",
+    "handoff_checklist": [
+      "All referenced artifacts exist",
+      "Next request references exact artifact filename"
+    ]
+  }
+}

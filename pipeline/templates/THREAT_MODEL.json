@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "asset": "",
+      "value": "",
+      "owner": ""
+    }
+  ],
+  "attack_surfaces": [
+    ""
+  ],
+  "threats": [
+    {
+      "threat": "",
+      "vector": "",
+      "impact": "",
+      "likelihood": "low|medium|high",
+      "mitigation": ""
+    }
+  ],
+  "abuse_cases": [
+    {
+      "scenario": "",
+      "protection": ""
+    }
+  ],
+  "security_controls": {
+    "auth": "",
+    "authorization": "",
+    "input_validation": "",
+    "rate_limiting": "",
+    "logging_monitoring": "",
+    "secrets_management": ""
+  }
+}

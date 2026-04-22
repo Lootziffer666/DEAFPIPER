@@ -1,0 +1,59 @@
+{
+  "positioning": {
+    "category": "",
+    "target_audience": "",
+    "differentiator": "",
+    "proof": "",
+    "one_sentence_positioning": ""
+  },
+  "messaging": {
+    "headline": "",
+    "subheadline": "",
+    "bullets": [
+      ""
+    ],
+    "objections_and_answers": [
+      {
+        "objection": "",
+        "answer": ""
+      }
+    ]
+  },
+  "channels": [
+    {
+      "channel": "",
+      "why": "",
+      "content_types": [
+        ""
+      ],
+      "metric": ""
+    }
+  ],
+  "pricing": {
+    "model": "free|freemium|subscription|one_time|usage",
+    "assumptions": "",
+    "experiments": [
+      ""
+    ]
+  },
+  "launch": {
+    "date": "",
+    "assets": [
+      "landing_page",
+      "demo",
+      "emails",
+      "social_posts",
+      "press_kit"
+    ],
+    "checklist_ref": "LAUNCH_CHECKLIST.json"
+  },
+  "timeline": [
+    {
+      "week": 1,
+      "focus": "",
+      "tasks": [
+        ""
+      ]
+    }
+  ]
+}

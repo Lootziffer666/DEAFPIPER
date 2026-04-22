@@ -1,0 +1,42 @@
+{
+  "purpose": "",
+  "data_categories": [
+    {
+      "category": "",
+      "examples": [
+        ""
+      ],
+      "special_category": false
+    }
+  ],
+  "processing_activities": [
+    {
+      "activity": "",
+      "legal_basis": "consent|contract|legitimate_interest|legal_obligation|vital_interest|public_task"
+    }
+  ],
+  "data_flows": {
+    "sources": [
+      ""
+    ],
+    "storage": "",
+    "processors": [
+      ""
+    ],
+    "retention": ""
+  },
+  "user_rights": {
+    "access": true,
+    "deletion": true,
+    "portability": true,
+    "objection": true
+  },
+  "risk_assessment": [
+    {
+      "risk": "",
+      "severity": "low|medium|high",
+      "mitigation": ""
+    }
+  ],
+  "notes": ""
+}
