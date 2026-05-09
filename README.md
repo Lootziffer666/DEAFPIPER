@@ -1,23 +1,54 @@
-# Vibecoding Pipeline – Sorted v2
+<h1 align="center">🎵 DEAFPIPER</h1>
 
-Öffne als erstes: `/playbook/00_START_HERE.md`
+<p align="center">
+  <strong>Vibecoding Pipeline — Sorted v2</strong>
+</p>
 
-## Was ist neu in v2?
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Typ-Pipeline%20Framework-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Stages-10%20%2B%203%20Cross--Cutting-green?style=flat-square" />
+</p>
 
-**Toolbox bereinigt:** P-Dateien sind von Boilerplate und fehlplatzierten GPT-Profilen befreit. P06 enthält jetzt nur noch R Wizard statt 27 verschiedene GPT-Profile.
+---
 
-**CustomGPT-Konfigurationen:** `/gpt_configs/` definiert pro Stage: Name, System-Prompt-Bausteine, Knowledge-Files, Tools, Input/Output-Formate und Quality Gates.
+## 🧭 Was ist DEAFPIPER?
 
-**Querschnittsmodule:** Translation, Slides/Presentations und Brand Guardian als wiederverwendbare Module in `/gpt_configs/cross_cutting/`.
+Ein strukturiertes Pipeline-Framework für **Vibecoding** — vom Prompt über CustomGPT-Konfigurationen bis zum fertigen Deployment-Paket.
 
-**Fehlende Templates ergänzt:** QA_REPORT.json (Go/No-Go), DEPLOY_PACKET.json (Infrastruktur), ITERATION_BRIEF.json (Feedback-Loop).
+**Öffne als erstes:** `/playbook/00_START_HERE.md`
 
-**MD_Sammlung integriert:** `/mapping/03_MD_SAMMLUNG_INTEGRATION.md` ordnet die GPT-Leitfäden aus der PDF den Pipeline-Stages zu.
+---
 
-## Ordner
+## 📦 Struktur
 
-- `/playbook/` – die sortierte Pipeline + Stage-Guides
-- `/templates/` – JSON-Handoffs (18 Templates)
-- `/gpt_configs/` – CustomGPT-Konfigurationen (10 Stages + 3 Querschnitt)
-- `/toolbox/` – bereinigtes Originalmaterial
-- `/mapping/` – Orientierung, File-Map, MD_Sammlung-Integration
+| Ordner | Inhalt |
+|--------|--------|
+| `/playbook/` | Sortierte Pipeline + Stage-Guides |
+| `/templates/` | 18 JSON-Handoff-Templates |
+| `/gpt_configs/` | CustomGPT-Konfigurationen (10 Stages + 3 Cross-Cutting) |
+| `/toolbox/` | Bereinigtes Originalmaterial |
+| `/mapping/` | Orientierung, File-Map |
+| `/ui/` | UI-Komponenten |
+| `/pipeline/` | Pipeline-Engine |
+| `/src/` | Core Source Code |
+
+---
+
+## 🚪 Gates
+
+Siehe [`GATES.md`](GATES.md).
+
+---
+
+## 🔗 Relevante Projekte
+
+| Projekt | Relevanz |
+|---------|----------|
+| [567-labs/instructor](https://github.com/567-labs/instructor) | Structured LLM Output |
+| [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Prompt Testing & Eval |
+| [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines) | Constrained Generation |
+
+---
+
+<p align="center"><em>Struktur statt Chaos. Pipeline statt Hoffnung.</em></p>
